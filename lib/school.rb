@@ -12,7 +12,6 @@ class School
   end
 
   def add_student(name, age)
-    @name
-    @age
+    @roster[age] << name
   end
 end
