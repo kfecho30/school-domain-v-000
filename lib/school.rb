@@ -12,7 +12,9 @@ class School
   end
 
   def add_student(name, age)
-    @roster[age] = []
+    unless @roster.keys.include?(age)
+      @roster[age] = []
+    end
     @roster[age] << name
   end
 end
