@@ -9,4 +9,9 @@ class School
   def add_student=(name, age)
     @name = name
     @age = age
-end
+  end
+
+  def add_student(name, age)
+    @name
+    @age
+  end
