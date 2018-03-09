@@ -15,3 +15,4 @@ class School
     @name
     @age
   end
+end
